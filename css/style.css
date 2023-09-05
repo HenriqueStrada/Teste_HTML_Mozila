@@ -1,0 +1,16 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    background: #00539F;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 60px;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: chocolate;
+    padding: 50px 20px 50px 20px;
+}
