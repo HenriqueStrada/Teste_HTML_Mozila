@@ -23,3 +23,29 @@ img{
     display: block;
     margin: 0 auto;
 }
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: aqua;
+    color: black;
+}
+
+button:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
